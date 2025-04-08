@@ -1,0 +1,14 @@
+; This is a comment
+; This is a comment
+; This is another comment
+let x 10
+let y 20
+let z + y x
+; comments
+; Define a result enum
+let result Ok :value 42
+
+; Check variant and extract
+if == (tag result) "Ok"
+   + (get result :value) 10
+   0
